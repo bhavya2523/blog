@@ -1,2 +1,2 @@
-# blog
-My personal awesome blog
+My personal awesome powered by **[Leonids](http://renyuanz.github.io/leonids)** Jekyll theme.
+
