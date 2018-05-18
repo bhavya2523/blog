@@ -22,32 +22,42 @@
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: none;
+    text-align: center;
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: #000;
+    //color: #F36170;
     font-size: 1.75em;
-    text-transform: lowercase;
+    text-align: center;
   }
   .author_job {
     display: block;
     color: $secondary;
     font-size: 0.8em;
     font-weight: 700;
-    text-transform: uppercase;
     margin: -5px auto 10px;
+    text-align: center;
   }
   .author_bio {
     font-size: 90%;
     display: block;
+    text-align: center;
+  }
+  .credits {
+    font-size: 1em;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
   }
   @include media-query($medium-screen) {
     text-align: right;
     margin: 0 auto;
     padding: 0 0px 80px;
+    text-align: center;
   }
 }
 .social-links {
