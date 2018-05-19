@@ -540,8 +540,8 @@ footer {
   text-align: center;
   padding: 3em 0; }
   footer .heart-icon {
-    color: #f83e4b;
-    text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b; }
+    color: #FF00FF;
+    text-shadow: 0 0 5px #fff, 0 0 10px #FF00FF; }
 
 .related-articles {
   margin-top: 2em; }
@@ -773,16 +773,16 @@ footer {
   padding-bottom: 1em; }
 
 .primary-text-color {
-  color: #00FFFF; }
+  color: #fff; }
 
 .primary-bg-color {
-  background-color: #00FFFF; }
+  background-color: #fff; }
 
 .secondary-text-color {
-  color: #00B7EB; }
+  color: #fff; }
 
 .secondary-bg-color {
-  background-color: #00B7EB; }
+  background-color: #fff; }
 
 .success-text-color {
   color: #65e892; }
@@ -791,10 +791,10 @@ footer {
   background-color: #65e892; }
 
 .danger-text-color {
-  color: #f83e4b; }
+  color: #FF00FF; }
 
 .danger-bg-color {
-  background-color: #f83e4b; }
+  background-color: #FF00FF; }
 
 .info-text-color {
   color: #09ABF6; }
@@ -803,10 +803,10 @@ footer {
   background-color: #09ABF6; }
 
 .warning-text-color {
-  color: #F5A623; }
+  color: #00FFFF; }
 
 .warning-bg-color {
-  background-color: #F5A623; }
+  background-color: #00FFFF; }
 
 /**
   * Grid
@@ -1052,13 +1052,13 @@ blockquote {
   position: relative;
   padding-left: 20px;
   font-style: italic;
-  border-left: 5px solid #00B7EB; }
+  border-left: 5px solid #fff; }
 
 a {
   text-decoration: none;
-  color: #00FFFF; }
+  color: #fff; }
   a:hover, a:focus {
-    color: #47ffff;
+    color: white;
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1127,20 +1127,20 @@ p {
   font-size: 0.875em;
   font-family: "Open Sans", "Open Sans", sans-serif;
   font-weight: 700;
-  background-color: #00FFFF;
+  background-color: #fff;
   color: #fff;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: #00FFFF;
+  border-color: #fff;
   text-decoration: none !important;
   border-radius: 5px; }
   .btn:visited {
     color: #fff;
-    border-color: #00FFFF; }
+    border-color: #fff; }
   .btn:hover {
     background-color: #fff;
-    color: #00FFFF;
-    border-color: #00FFFF; }
+    color: #fff;
+    border-color: #fff; }
 
 .btn-success {
   background-color: #65e892;
@@ -1155,28 +1155,28 @@ p {
     border-color: #65e892; }
 
 .btn-warning {
-  background-color: #F5A623;
+  background-color: #00FFFF;
   color: #fff;
-  border-color: #F5A623; }
+  border-color: #00FFFF; }
   .btn-warning:visited {
     color: #fff;
-    border-color: #F5A623; }
+    border-color: #00FFFF; }
   .btn-warning:hover {
     background-color: #fff;
-    color: #F5A623;
-    border-color: #F5A623; }
+    color: #00FFFF;
+    border-color: #00FFFF; }
 
 .btn-danger {
-  background-color: #f83e4b;
+  background-color: #FF00FF;
   color: #fff;
-  border-color: #f83e4b; }
+  border-color: #FF00FF; }
   .btn-danger:visited {
     color: #fff;
-    border-color: #f83e4b; }
+    border-color: #FF00FF; }
   .btn-danger:hover {
     background-color: #fff;
-    color: #f83e4b;
-    border-color: #f83e4b; }
+    color: #FF00FF;
+    border-color: #FF00FF; }
 
 .btn-info {
   background-color: #09ABF6;
@@ -1448,7 +1448,6 @@ pre code {
 
 /* LAYOUT CSS */
 .cover {
-  background-color: #f5f5f5;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -1466,7 +1465,7 @@ pre code {
       width: 100%; } }
 
 .cover-card {
-  color: black;
+  color: #fff;
   padding: 0 30px; }
   .cover-card .avatar {
     border-radius: 50%;
@@ -1476,13 +1475,13 @@ pre code {
     text-align: center; }
   .cover-card .author_name {
     display: block;
-    color: #000;
+    color: #fff;
     font-size: 1.75em;
     text-align: center; }
   .cover-card .author_job {
     display: block;
-    color: #00B7EB;
-    font-size: 0.8em;
+    color: #fff;
+    font-size: 1em;
     font-weight: 700;
     margin: -5px auto 10px;
     text-align: center; }
@@ -1512,9 +1511,9 @@ pre code {
       display: inline-block;
       margin-left: 1em; }
       .social-links ul li a.social-link-item {
-        color: #00B7EB; }
+        color: #fff; }
         .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
-          color: #33d2ff; }
+          color: white; }
 
 .nav-list {
   margin: 0;
@@ -1528,9 +1527,12 @@ pre code {
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: #00B7EB; }
+      color: #fff; }
       .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
-        color: #33d2ff; }
+        color: white; }
+
+#sidebg {
+  background: url(https://vchrombie.github.io/blog/img/bgd.jpg); }
 
 ul.tag-cloud {
   padding: 2em 0 3em;
@@ -1546,7 +1548,7 @@ ul.tag-cloud {
 .tag-list .tag-group {
   margin-bottom: 2em; }
   .tag-list .tag-group .tag-group-title {
-    color: #F5A623;
+    color: #00FFFF;
     text-transform: capitalize; }
   .tag-list .tag-group .tag-item {
     padding-left: 1em;
@@ -1559,15 +1561,15 @@ ul.tag-cloud {
 .cat-list .cat-group {
   margin-bottom: 2em; }
   .cat-list .cat-group .cat-group-title {
-    color: #F5A623;
+    color: #00FFFF;
     text-transform: capitalize; }
   .cat-list .cat-group .cat-item {
     padding-left: 1em;
     margin-bottom: .5em; }
     .cat-list .cat-group .cat-item a {
-      color: #f83e4b; }
+      color: #FF00FF; }
       .cat-list .cat-group .cat-item a:hover, .cat-list .cat-group .cat-item a:focus {
-        color: #fcb4b9; }
+        color: #ff7aff; }
 
 .archive #timeline {
   position: relative; }
@@ -1643,25 +1645,25 @@ section.post {
   padding: 0.5em 1em; }
 
 .post-title-link {
-  color: #00FFFF;
+  color: #fff;
   font-size: 14px;
   margin-left: 10px; }
   .post-title-link:hover, .post-title-link:focus {
-    color: #47ffff; }
+    color: white; }
 
 .post-meta {
   font-size: 13px;
   font-weight: bold; }
   .post-meta .post-date {
-    color: #00B7EB; }
+    color: #fff; }
   .post-meta .post-author {
     text-transform: uppercase;
-    color: #F5A623; }
+    color: #00FFFF; }
   .post-meta .post-cat {
     text-transform: uppercase;
-    color: #F5A623; }
-  .post-meta .read-time {
     color: #00FFFF; }
+  .post-meta .read-time {
+    color: #fff; }
 
 a.read-more {
   padding: 5px 8px; }
@@ -1699,7 +1701,7 @@ a.read-more {
   margin: 0 auto;
   padding: 20px 30px;
   text-align: center;
-  color: #F5A623;
+  color: #00FFFF;
   font-size: 16px;
   line-height: 16px; }
 

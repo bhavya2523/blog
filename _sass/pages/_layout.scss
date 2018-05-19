@@ -1,6 +1,5 @@
 /* LAYOUT CSS */
 .cover {
-  background-color: $background-color;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -18,7 +17,7 @@
   }
 }
 .cover-card {
-  color: $text-color;
+  color: #fff;
   padding: 0 30px;
   .avatar {
     border-radius: 50%;
@@ -29,7 +28,7 @@
   }
   .author_name {
     display: block;
-    color: #000;
+    color: #fff;
     //color: #F36170;
     font-size: 1.75em;
     text-align: center;
@@ -37,7 +36,7 @@
   .author_job {
     display: block;
     color: $secondary;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 700;
     margin: -5px auto 10px;
     text-align: center;
@@ -98,4 +97,8 @@
       }
     }
   }
+}
+
+#sidebg {
+  background:url(https://vchrombie.github.io/blog/img/bgd.jpg);
 }
