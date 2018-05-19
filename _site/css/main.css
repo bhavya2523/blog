@@ -77,10 +77,6 @@
 /*
 $primary:          #42b983;
 $secondary:        #8d7edc;
-$success:          #65e892;
-$danger:           #f83e4b;
-$warning:          #F5A623;
-$info:             #09ABF6;
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -544,8 +540,8 @@ footer {
   text-align: center;
   padding: 3em 0; }
   footer .heart-icon {
-    color: #000;
-    text-shadow: 0 0 5px #fff, 0 0 10px #000; }
+    color: #f83e4b;
+    text-shadow: 0 0 5px #fff, 0 0 10px #f83e4b; }
 
 .related-articles {
   margin-top: 2em; }
@@ -777,40 +773,40 @@ footer {
   padding-bottom: 1em; }
 
 .primary-text-color {
-  color: #000; }
+  color: #00FFFF; }
 
 .primary-bg-color {
-  background-color: #000; }
+  background-color: #00FFFF; }
 
 .secondary-text-color {
-  color: #000; }
+  color: #00B7EB; }
 
 .secondary-bg-color {
-  background-color: #000; }
+  background-color: #00B7EB; }
 
 .success-text-color {
-  color: #000; }
+  color: #65e892; }
 
 .success-bg-color {
-  background-color: #000; }
+  background-color: #65e892; }
 
 .danger-text-color {
-  color: #000; }
+  color: #f83e4b; }
 
 .danger-bg-color {
-  background-color: #000; }
+  background-color: #f83e4b; }
 
 .info-text-color {
-  color: #000; }
+  color: #09ABF6; }
 
 .info-bg-color {
-  background-color: #000; }
+  background-color: #09ABF6; }
 
 .warning-text-color {
-  color: #000; }
+  color: #F5A623; }
 
 .warning-bg-color {
-  background-color: #000; }
+  background-color: #F5A623; }
 
 /**
   * Grid
@@ -1056,13 +1052,13 @@ blockquote {
   position: relative;
   padding-left: 20px;
   font-style: italic;
-  border-left: 5px solid #000; }
+  border-left: 5px solid #00B7EB; }
 
 a {
   text-decoration: none;
-  color: #000; }
+  color: #00FFFF; }
   a:hover, a:focus {
-    color: #242424;
+    color: #47ffff;
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1131,68 +1127,68 @@ p {
   font-size: 0.875em;
   font-family: "Open Sans", "Open Sans", sans-serif;
   font-weight: 700;
-  background-color: #000;
+  background-color: #00FFFF;
   color: #fff;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: #000;
+  border-color: #00FFFF;
   text-decoration: none !important;
   border-radius: 5px; }
   .btn:visited {
     color: #fff;
-    border-color: #000; }
+    border-color: #00FFFF; }
   .btn:hover {
     background-color: #fff;
-    color: #000;
-    border-color: #000; }
+    color: #00FFFF;
+    border-color: #00FFFF; }
 
 .btn-success {
-  background-color: #000;
+  background-color: #65e892;
   color: #fff;
-  border-color: #000; }
+  border-color: #65e892; }
   .btn-success:visited {
     color: #fff;
-    border-color: #000; }
+    border-color: #65e892; }
   .btn-success:hover {
     background-color: #fff;
-    color: #000;
-    border-color: #000; }
+    color: #65e892;
+    border-color: #65e892; }
 
 .btn-warning {
-  background-color: #000;
+  background-color: #F5A623;
   color: #fff;
-  border-color: #000; }
+  border-color: #F5A623; }
   .btn-warning:visited {
     color: #fff;
-    border-color: #000; }
+    border-color: #F5A623; }
   .btn-warning:hover {
     background-color: #fff;
-    color: #000;
-    border-color: #000; }
+    color: #F5A623;
+    border-color: #F5A623; }
 
 .btn-danger {
-  background-color: #000;
+  background-color: #f83e4b;
   color: #fff;
-  border-color: #000; }
+  border-color: #f83e4b; }
   .btn-danger:visited {
     color: #fff;
-    border-color: #000; }
+    border-color: #f83e4b; }
   .btn-danger:hover {
     background-color: #fff;
-    color: #000;
-    border-color: #000; }
+    color: #f83e4b;
+    border-color: #f83e4b; }
 
 .btn-info {
-  background-color: #000;
+  background-color: #09ABF6;
   color: #fff;
-  border-color: #000; }
+  border-color: #09ABF6; }
   .btn-info:visited {
-    border-color: #000;
+    border-color: #09ABF6;
     color: #fff; }
   .btn-info:hover {
     background-color: #fff;
-    color: #000;
-    border-color: #000; }
+    color: #09ABF6;
+    border-color: #09ABF6; }
 
 /* ==========================================================================
    Syntax highlighting
@@ -1452,13 +1448,19 @@ pre code {
 
 /* LAYOUT CSS */
 .cover {
-  background-color: #f5f5f5;
-  position: fixed;
+  background-color: #0f0f0f;
   text-align: center;
   width: 100%;
   min-height: 400px;
   padding: 30px 15px 20px;
+  overflow: hidden;
+  position: relative;
   z-index: 1; }
+  .cover #particles-js {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%; }
   @media only screen and (min-width: 600px) {
     .cover {
       background-position: center;
@@ -1481,11 +1483,12 @@ pre code {
   .cover-card .author_name {
     display: block;
     color: #000;
+    color: #F36170;
     font-size: 1.75em;
     text-align: center; }
   .cover-card .author_job {
     display: block;
-    color: #000;
+    color: #00B7EB;
     font-size: 0.8em;
     font-weight: 700;
     margin: -5px auto 10px;
@@ -1516,9 +1519,9 @@ pre code {
       display: inline-block;
       margin-left: 1em; }
       .social-links ul li a.social-link-item {
-        color: #000; }
+        color: #00B7EB; }
         .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
-          color: #242424; }
+          color: #33d2ff; }
 
 .nav-list {
   margin: 0;
@@ -1532,9 +1535,9 @@ pre code {
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: #000; }
+      color: #00B7EB; }
       .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
-        color: #242424; }
+        color: #33d2ff; }
 
 ul.tag-cloud {
   padding: 2em 0 3em;
@@ -1550,7 +1553,7 @@ ul.tag-cloud {
 .tag-list .tag-group {
   margin-bottom: 2em; }
   .tag-list .tag-group .tag-group-title {
-    color: #000;
+    color: #F5A623;
     text-transform: capitalize; }
   .tag-list .tag-group .tag-item {
     padding-left: 1em;
@@ -1563,15 +1566,15 @@ ul.tag-cloud {
 .cat-list .cat-group {
   margin-bottom: 2em; }
   .cat-list .cat-group .cat-group-title {
-    color: #000;
+    color: #F5A623;
     text-transform: capitalize; }
   .cat-list .cat-group .cat-item {
     padding-left: 1em;
     margin-bottom: .5em; }
     .cat-list .cat-group .cat-item a {
-      color: #000; }
+      color: #f83e4b; }
       .cat-list .cat-group .cat-item a:hover, .cat-list .cat-group .cat-item a:focus {
-        color: #3d3d3d; }
+        color: #fcb4b9; }
 
 .archive #timeline {
   position: relative; }
@@ -1631,7 +1634,7 @@ ul.tag-cloud {
   float: right;
   font-weight: bold;
   font-style: italic;
-  color: #000;
+  color: #09ABF6;
   font-size: 13px;
   padding-right: 20px; }
 
@@ -1641,31 +1644,31 @@ section.post {
 .back-home a {
   font-size: 13px;
   font-weight: bold;
-  color: #000;
+  color: #09ABF6;
   border: 1px solid #737373;
   border-radius: 0.4em;
   padding: 0.5em 1em; }
 
 .post-title-link {
-  color: #000;
+  color: #00FFFF;
   font-size: 14px;
   margin-left: 10px; }
   .post-title-link:hover, .post-title-link:focus {
-    color: #242424; }
+    color: #47ffff; }
 
 .post-meta {
   font-size: 13px;
   font-weight: bold; }
   .post-meta .post-date {
-    color: #000; }
+    color: #00B7EB; }
   .post-meta .post-author {
     text-transform: uppercase;
-    color: #000; }
+    color: #F5A623; }
   .post-meta .post-cat {
     text-transform: uppercase;
-    color: #000; }
+    color: #F5A623; }
   .post-meta .read-time {
-    color: #000; }
+    color: #00FFFF; }
 
 a.read-more {
   padding: 5px 8px; }
@@ -1703,7 +1706,7 @@ a.read-more {
   margin: 0 auto;
   padding: 20px 30px;
   text-align: center;
-  color: #000;
+  color: #F5A623;
   font-size: 16px;
   line-height: 16px; }
 
