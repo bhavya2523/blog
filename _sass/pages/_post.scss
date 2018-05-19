@@ -21,7 +21,6 @@
 
 .image-credit {
   float: right;
-  font-weight: bold;
   font-style: italic;
   color: $info;
   font-size: 13px;
@@ -37,7 +36,6 @@ section.post {
 
 .back-home a {
   font-size: 13px;
-  font-weight: bold;
   color: $info;
   border: 1px solid lighten($text-color, 45%);
   border-radius: 0.4em;
@@ -62,16 +60,13 @@ section.post {
 // Post meta
 .post-meta {
   font-size: 13px;
-  font-weight: bold;
 	.post-date {
 		color: $secondary;
 	}
 	.post-author {
-		text-transform: uppercase;
 		color: $warning;
 	}
   .post-cat {
-		text-transform: uppercase;
 		color: $warning;
 	}
   .read-time {
@@ -141,7 +136,6 @@ a.read-more {
   .post-nav-text {
     font-size: 16px;
     line-height: 16px;
-    font-weight: bold;
   }
   .table-cell {
     vertical-align: middle;

@@ -1466,7 +1466,7 @@ pre code {
 
 .cover-card {
   color: #fff;
-  padding: 0 30px; }
+  padding: 0 10px; }
   .cover-card .avatar {
     border-radius: 50%;
     width: 200px;
@@ -1547,8 +1547,7 @@ ul.tag-cloud {
 .tag-list .tag-group {
   margin-bottom: 2em; }
   .tag-list .tag-group .tag-group-title {
-    color: #F4D27A;
-    text-transform: capitalize; }
+    color: #F4D27A; }
   .tag-list .tag-group .tag-item {
     padding-left: 1em;
     margin-bottom: .5em; }
@@ -1560,8 +1559,7 @@ ul.tag-cloud {
 .cat-list .cat-group {
   margin-bottom: 2em; }
   .cat-list .cat-group .cat-group-title {
-    color: #F4D27A;
-    text-transform: capitalize; }
+    color: #F4D27A; }
   .cat-list .cat-group .cat-item {
     padding-left: 1em;
     margin-bottom: .5em; }
@@ -1626,7 +1624,6 @@ ul.tag-cloud {
 
 .image-credit {
   float: right;
-  font-weight: bold;
   font-style: italic;
   color: #AFC1CC;
   font-size: 13px;
@@ -1637,7 +1634,6 @@ section.post {
 
 .back-home a {
   font-size: 13px;
-  font-weight: bold;
   color: #AFC1CC;
   border: 1px solid #737373;
   border-radius: 0.4em;
@@ -1651,15 +1647,12 @@ section.post {
     color: #a2b6bf; }
 
 .post-meta {
-  font-size: 13px;
-  font-weight: bold; }
+  font-size: 13px; }
   .post-meta .post-date {
     color: #517281; }
   .post-meta .post-author {
-    text-transform: uppercase;
     color: #F4D27A; }
   .post-meta .post-cat {
-    text-transform: uppercase;
     color: #F4D27A; }
   .post-meta .read-time {
     color: #7895A2; }
@@ -1717,8 +1710,7 @@ a.read-more {
   padding: 20px 30px; }
   .post-nav-btn .post-nav-text {
     font-size: 16px;
-    line-height: 16px;
-    font-weight: bold; }
+    line-height: 16px; }
   .post-nav-btn .table-cell {
     vertical-align: middle; }
 
