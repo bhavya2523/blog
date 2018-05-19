@@ -35,9 +35,9 @@
   }
   .author_job {
     display: block;
-    color: $secondary;
-    font-size: 1em;
-    font-weight: 700;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 200;
     margin: -5px auto 10px;
     text-align: center;
   }
@@ -69,7 +69,7 @@
       display: inline-block;
       margin-left: 1em;
       a.social-link-item {
-        color: $secondary;
+        color: #fff;
         &:hover,
         &:focus {
           color: lighten($secondary, 14%);
@@ -88,9 +88,8 @@
     zoom: 1;
     & a {
       margin-top: 1em;
-      text-transform: lowercase;
       font-size: 85%;
-      color: $secondary;
+      color: #fff;
       &:hover,
       &:focus {
         color: lighten($secondary, 14%);
@@ -100,5 +99,5 @@
 }
 
 #sidebg {
-  background:url(https://vchrombie.github.io/blog/img/bgd.jpg);
+  background:url(https://vchrombie.github.io/blog/img/bg.jpg);
 }
