@@ -1,4 +1,35 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+
+# - name: leonids
+#   descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+#   image: bg.jpg
+#   github: https://github.com/renyuanz/leonids
+#   website:
+
+- name: vchrombie.github.io
+  descr: "&emsp;A personalized portfolio page and blog using Bootstrap, Jekyll and JS libraries."
+  github: https://github.com/vchrombie/vchrombie.github.io
+  website: https://vchrombie.github.io/
+
+- name: Student Diary
+  descr: "&emsp;This project is a Java application which is similar to that of the AUMS - Amrita Unviversity Management System (but of a smaller version, only for Students.)
+  This application not only deals with the marks and grades but also have some extra features like records containing the Students's extra curricular activities like student clubs and sports."
+  github: https://github.com/vchrombie/java-project
+
+- name: PyCrumbs
+  descr: "&emsp;These are the codes that I have written whenever I felt bored or tried to do some pretty good stuff with Python."
+  github: https://github.com/vchrombie/PyCrumbs
+
+- name: Website for Team Scorpion
+  descr: "&emsp;I made this website for my firnds as they need one for going to one international robotic competition to Germany. I made this using Bootstrap."
+  github: https://github.com/scorpion-hut/scorpion-hut.github.io
+  website: https://scorpion-hut.github.io/
+
+- name: Happy Birthday
+  descr: "&emsp;I created this web page to celebrate the birthday of my childhood's best friend, Rachana. She is awesome!! Yes and that is the only reason, I took all the effort to make this page. Just click on the below link to go to the celebration page."
+  github: https://github.com/vchrombie/hbd1
+  website: https://vchrombie.github.io/hbd1/
+
+- name: Happy Birthday 2
+  descr: "&emsp;One more dedicated to her. ❤️"
+  github: https://github.com/vchrombie/hbd2
+  website: https://vchrombie.github.io/hbd2/

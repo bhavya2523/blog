@@ -1,8 +1,23 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+# - name: Massachusets Instutite of Technology
+#   link: http://web.mit.edu/
+#   date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+#   desc: <br> (expected graduation in 2019)
+
+
+
+- name: Amrita University
+  link: https://www.amrita.edu/
+  date: August 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  desc: B.E in Computer Science and Engineering
+
+- name: Narayana Junior College
+  link: http://www.narayanajuniorcolleges.com/
+  date: June 2014 - April 2016
+  desc: Higher Secondary
+
+
+- name: Dilsukhnagar Public School
+  link: http://dilsukhnagarpublicschool.in/
+  date: June 2001 - April 2014
+  desc: Secondary
