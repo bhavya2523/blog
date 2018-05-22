@@ -773,10 +773,10 @@ footer {
   padding-bottom: 1em; }
 
 .primary-text-color {
-  color: #7895A2; }
+  color: #3366BB; }
 
 .primary-bg-color {
-  background-color: #7895A2; }
+  background-color: #3366BB; }
 
 .secondary-text-color {
   color: #517281; }
@@ -1056,9 +1056,9 @@ blockquote {
 
 a {
   text-decoration: none;
-  color: #7895A2; }
+  color: #3366BB; }
   a:hover, a:focus {
-    color: #a2b6bf;
+    color: #618cd4;
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1127,20 +1127,20 @@ p {
   font-size: 0.875em;
   font-family: "Open Sans", "Open Sans", sans-serif;
   font-weight: 700;
-  background-color: #7895A2;
+  background-color: #3366BB;
   color: #fff;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: #7895A2;
+  border-color: #3366BB;
   text-decoration: none !important;
   border-radius: 5px; }
   .btn:visited {
     color: #fff;
-    border-color: #7895A2; }
+    border-color: #3366BB; }
   .btn:hover {
     background-color: #fff;
-    color: #7895A2;
-    border-color: #7895A2; }
+    color: #3366BB;
+    border-color: #3366BB; }
 
 .btn-success {
   background-color: #F68D5C;
@@ -1533,6 +1533,9 @@ pre code {
 #sidebg {
   background: url(https://vchrombie.github.io/blog/img/bg.jpg); }
 
+.devicon {
+  max-width: 3em; }
+
 ul.tag-cloud {
   padding: 2em 0 3em;
   margin: 0;
@@ -1640,11 +1643,11 @@ section.post {
   padding: 0.5em 1em; }
 
 .post-title-link {
-  color: #7895A2;
+  color: #3366BB;
   font-size: 14px;
   margin-left: 10px; }
   .post-title-link:hover, .post-title-link:focus {
-    color: #a2b6bf; }
+    color: #618cd4; }
 
 .post-meta {
   font-size: 13px; }
@@ -1655,7 +1658,7 @@ section.post {
   .post-meta .post-cat {
     color: #F4D27A; }
   .post-meta .read-time {
-    color: #7895A2; }
+    color: #3366BB; }
 
 a.read-more {
   padding: 5px 8px; }
