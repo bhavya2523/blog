@@ -1,259 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
-
-
-
-
-<head>
-  <meta charset="UTF-8">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="A simple and awesome blog theme powered by jekyll.">
-  <meta name="keywords" content="Programming, PHP, and Ruby">
-  <meta name="author" content="Archive | Leonids">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f5f5f5">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <!-- Twitter Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Archive | Leonids">
-  <meta name="twitter:description" content="A simple and awesome blog theme powered by jekyll.">
-  <meta name="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <!-- Open Graph Tags -->
-  <meta property="og:type" content="blog">
-  <meta property="og:url" content="http://localhost:4000">
-  <meta property="og:title" content="Archive | Leonids">
-  <meta property="og:description" content="A simple and awesome blog theme powered by jekyll.">
-  <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
-  <title>Archive | Leonids</title>
+  <meta content="https://icyflame.github.io/dp.jpg" property="og:image">
 
-  <!-- CSS files -->
-  <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <meta content="vchrombie" property="og:site_name">
 
-  <link rel="canonical" href="http://localhost:4000/archive/">
-  <link rel="alternate" type="application/rss+xml" title="Leonids" href="http://localhost:4000 /feed.xml " />
+  
+  <meta content="Archive" property="og:title">
+  
+
+  
+  <meta content="article" property="og:type">
+  
+
+  
+  <meta content="75 words about " property="og:description">
+  
+
+  
+  <meta content="/archive/" property="og:url">
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+  
+
+
+  <title>
+    
+    Archive &middot; vchrombie
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
   <!-- Icons -->
-  <!-- 16x16 -->
-  <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
-  <!-- 32x32 -->
-  <link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
 
-<body>
-  <div class="row">
-    <div class="col s12 m3">
-      <div class="table cover">
-        
+  <body>
 
-<div class="cover-card table-cell table-middle">
-  
-  <img src="http://localhost:4000/img/leonids-logo.png" alt="" class="avatar">
-  
-  <a href="http://localhost:4000/" class="author_name">Leonids</a>
-  <span class="author_job">PHP & Ruby Developer</span>
-  <span class="author_bio mbm">A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France.</span>
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="http://localhost:4000/">home</a>
-        <span>/</span>
-      </li>
-       
-      <li class="nav-item">
-        <a href="http://localhost:4000/archive/">Archive</a>
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>
+        <a href="/">
+          vchrombie
+        </a>
+      </h2>
+      <p class="lead">A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
         
-          <span>/</span>
-        
-      </li>
           
-      <li class="nav-item">
-        <a href="http://localhost:4000/categories/">Categories</a>
         
-          <span>/</span>
+      
         
-      </li>
-            
-      <li class="nav-item">
-        <a href="http://localhost:4000/resume/">Resume</a>
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+            <!-- about/ -->
+          
         
-          <span>/</span>
+      
         
-      </li>
+          
+            <a class="sidebar-nav-item active" href="/archive/">Archive</a>
+            <!-- archive/ -->
+          
         
-      <li class="nav-item">
-        <a href="http://localhost:4000/tags/">Tags</a>
+      
         
-      </li>
-       
-    </ul>
-  </nav>
-  <script type="text/javascript">
-  // based on http://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs,rhs;
-    var p = hs.split('@');
-    lhs = p[0];
-    rhs = p[1];
-    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
-    document.write(":" + lhs + "@");
-    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
-  }
-</script>
-<div class="social-links">
-  <ul>
-    
-      <li>
-      <script>gen_mail_to_link('zourenyuan@gmail.com', 'Hello from website');</script>
-      </li>
-    
-    <li><a href="http://twitter.com/renyuan814" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
-    
-    
-    <li><a href="http://linkedin.com/in/renyuan-zou-69b7038a" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
-    
-    
-    
-    <li><a href="http://github.com/renyuanz" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </ul>
-</div>
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
 
-</div>
+      <span class="sidebar-nav-item">Powered by <a href="https://jekyllrb.com">jekyll</a></span>
+      <span class="sidebar-nav-item">The <a
+          href="https://github.com/poole/hyde">Hyde</a> theme by <a href="https://github.com/poole/">Poole</a></span>
+      <span class="sidebar-nav-item">Hosted with <i class="fa fa-heart"></i> on
+        <a href="https://github.com/icyflame/blog">Github</a></span>
+    </nav>
 
-      </div>
-    </div>
-    <div class="col s12 m9">
-      <div class="post-listing">
-          <div id="page">
-    <header class="page-header">
-      <h2>Archive</h2>
-    </header>
-
-    <article class="page-content">
-      <div class="archive">
-  <div class="timeline" id="timeline">
-    
-    
-    <div class="archive-title">
-      <h4 class="archive-year">2015</h4>
-    </div>
-
-    <ul>
-    
-    <li>
-      <div style="width:60px;float:left;">Aug 18</div> <a href="http://localhost:4000/articles/2015-08/welcome-to-jekyll">Welcome to Jekyll!</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2013</h4>
-    </div>
-
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Aug 16</div> <a href="http://localhost:4000/articles/2013-08/code-highlighting-post">Syntax Highlighting Post</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Aug 12</div> <a href="http://localhost:4000/articles/2013-08/sample-link-post">Sample Link Post</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">May 23</div> <a href="http://localhost:4000/articles/2013-05/readability-feature-post">Post with Large Feature Image and Text</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2012</h4>
-    </div>
-
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">May 22</div> <a href="http://localhost:4000/articles/2012-05/readability-post">Testing Readability with a Bunch of Text</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2011</h4>
-    </div>
-
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Mar 10</div> <a href="http://localhost:4000/articles/2011-03/sample-post">Sample Post</a></li>
-    
-    </ul>
-
+    <p>&copy; 2018. All rights reserved.</p>
   </div>
-
 </div>
 
-    </article>
 
-
-  </div><!-- end page content -->
-
-
+    <div class="content container">
+      <div class="page">
+  <h2 class="page-title">Archive</h2>
+  <ul>
   
 
-        <footer>
-  &copy; 2018 Leonids. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://github.com/renyuanz/leonids/">leonids theme</a> made with <i class="fa fa-heart heart-icon"></i>
-</footer>
+    
+      <h3>2013</h3>
+    
 
-      </div>
+    <li>Dec <a href="/2013/12/28/introducing-hyde/">Introducing Hyde</a></li>
+  
+
+    
+      
+      
+      
+        <h3>2012</h3>
+      
+    
+
+    <li>Feb <a href="/2012/02/07/example-content/">Example content</a></li>
+  
+
+    
+      
+      
+      
+    
+
+    <li>Feb <a href="/2012/02/06/whats-jekyll/">What's Jekyll?</a></li>
+  
+</ul>
+
+</div>
+
     </div>
-  </div>
-  <script type="text/javascript" src="http://localhost:4000/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="http://localhost:4000/js/main.js"></script>
 
-<!-- Asynchronous Google Analytics snippet -->
-<script>
+    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-62251910-2', 'auto');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40518182-10', 'auto');
   ga('send', 'pageview');
+
 </script>
 
-
-
-</body>
+  </body>
 </html>

@@ -1,2 +1,2 @@
-# blog
-My personal awesome blog
+Personal blog using Hyde theme.
+<3
