@@ -10,13 +10,13 @@ title:            vchrombie
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              http://vchrombie.github.io/blog/
-baseurl:          /
+baseurl:          
 
 disqus_shortname: vchrombie
 
 author:
   name:           'Venu'
-  url:            https://vchrombie.github.io/blog
+  url:            https://vchrombie.github.io/blog/
 
 paginate:         10
 
@@ -28,4 +28,4 @@ appname:          blog
 version:          2.1.0
 
 github:
-  repo:           https://github.com/vchrombie/blog
+  repo:           https://github.com/vchrombie/blog/
