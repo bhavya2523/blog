@@ -1,4 +1,4 @@
-# Ruby script to generate the next file for writing today's post in
+# Ruby script to generate the next file for writing today's post
 
 require 'date'
 
