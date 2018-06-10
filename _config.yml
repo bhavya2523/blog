@@ -15,9 +15,11 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            vchrombie
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            vchr0mbi3's Diary
+tagline:          'Make it happen.'
+description:      'Optimist | Foodie | Techie'
+funkyline:        “I would love to change the world, but they won’t give me the source code. :P"
+
 url:              "http://vchrombie.github.io"
 baseurl:          "/blog"
 
@@ -60,7 +62,7 @@ owner:
   bing-verify:
   github: vchrombie #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin:  #username
   xing: #username
   instagram: vchrombie #username
   lastfm: #username
