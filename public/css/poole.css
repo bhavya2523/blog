@@ -428,3 +428,9 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+.funkyline {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-style: thin-italic;
+  font-size: 18px;
+}
