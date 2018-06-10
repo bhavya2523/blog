@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-title: "Tag: web"
-tag: web
+title: "Tag: USB"
+tag: USB
 robots: noindex
 ---

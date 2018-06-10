@@ -1,6 +1,6 @@
 ---
 layout: tag_page
-title: "Tag: jekyll"
-tag: jekyll
+title: "Tag: FunToKnow"
+tag: FunToKnow
 robots: noindex
 ---
