@@ -12,5 +12,4 @@ I’m a sophomore studying Computer Science at Amrita University, Kerala. I have
 
 Thanks for taking the time to check out what I do. I hope you find it helpful!
 
-
-<a href="https://github.com/vchrombie/ama/issues/new">Ask me anything!!</a>
+[Ask me anything!!](https://github.com/vchrombie/ama/issues/new)
