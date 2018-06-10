@@ -2,8 +2,6 @@
 
 '''
 tag_generator.py
-Copyright 2017 Long Qian
-Contact: lqian8@jhu.edu
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
 '''
@@ -11,8 +9,8 @@ No plugins required.
 import glob
 import os
 
-post_dir = '_posts/'
-tag_dir = 'tag/'
+post_dir = '../_posts/'
+tag_dir = '../tag/'
 
 filenames = glob.glob(post_dir + '*md')
 
