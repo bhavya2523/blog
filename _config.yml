@@ -2,7 +2,7 @@ timezone:          India/Kolakata
 
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rogue
 
 kramdown:
   auto_ids: true
