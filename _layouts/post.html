@@ -4,15 +4,34 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_long_string }}</span>
-  <span>
-    {% for tag in page.tags %}
-      {% capture tag_name %}{{ tag }}{% endcapture %}
-      <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><nobr>#{{ tag_name }}</nobr>&nbsp;</a>
-    {% endfor %}
-  </span>
-  <span> • <i class="far fa-clock"></i> {% include read_time.html %}</span>
-  <br><br>
+  <span class="post-date">{{ page.date | date_to_long_string }} <span style="color:black"> • <i class="far fa-clock"></i> {% include read_time.html %}</span></span>
+
+  <div class="CandT">
+    <span class="post-categories"> Categories
+      {% if post %}
+        {% assign categories = post.categories %}
+      {% else %}
+        {% assign categories = page.categories %}
+      {% endif %}
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span><br>
+    <span class="post-tags"> Tags
+      {% if post %}
+        {% assign tags = post.tags %}
+      {% else %}
+        {% assign tags = page.tags %}
+      {% endif %}
+      {% for tag in tags %}
+      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">#{{tag}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+  </div>
+
+  <br>
   <a href="https://twitter.com/share" class="twitter-share-button" data-via="vchrombie" data-size="large" data-related="vchrombie">Tweet</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
   </script>
