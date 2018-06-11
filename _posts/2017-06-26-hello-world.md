@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Hello, World - ???
+categories: Misc
 tags: HelloWorld FunToKnow
 ---
 

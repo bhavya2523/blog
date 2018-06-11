@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: My First Blog Post!
+categories: Life
 tags: blog
 ---
 
