@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Re-Use your pen-drive after using it as a Bootable device.
-categories: Tutorials
+categories: Tutorial
 tags: USB, booting
 ---
 ![img](/blog/public/img/pendrive-error.jpg)

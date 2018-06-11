@@ -4,6 +4,16 @@ title: Example content
 ---
 
 
+
+
+<p align="center">
+  <img title="" src="/blog/public/img/unique-no.png" alt="" style="border: 1px solid">
+</p>
+
+![img](/blog/public/img/fork0.png "title")
+
+
+
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
