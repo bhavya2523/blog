@@ -15,6 +15,7 @@ filout << "---
 layout: post
 comments: true
 title:
+categories:
 tags:
 ---\n\n"
 
