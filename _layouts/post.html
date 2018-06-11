@@ -7,7 +7,7 @@ layout: default
   <span class="post-date">{{ page.date | date_to_long_string }} <span style="color:black"> • <i class="far fa-clock"></i> {% include read_time.html %}</span></span>
 
   <div class="CandT">
-    <span class="post-categories"> Categories
+    <span class="post-categories"> Categories :
       {% if post %}
         {% assign categories = post.categories %}
       {% else %}
@@ -18,7 +18,7 @@ layout: default
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span><br>
-    <span class="post-tags"> Tags
+    <span class="post-tags"> Tags :
       {% if post %}
         {% assign tags = post.tags %}
       {% else %}
@@ -47,12 +47,12 @@ layout: default
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
-        <h3>
+        <p>
           <a href="{{ site.baseurl }}{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_long_string }}</small>
           </a>
-        </h3>
+        </p>
       </li>
     {% endfor %}
   </ul>
