@@ -5,7 +5,7 @@ title: The Unique Number
 categories: Techie
 tags: algorithm FunToKnow
 ---
-For about five days back, our CIR (Quants) madam, came to our class, as usual, bringing some typical questions with her. She then got on to the dais and asked a question. in her sweet tone, as "**Find a ten digit number whose first two digits are divisible by 2, three digits by 3, four digits by 4 and so on..  and such that each digit must be used only once!**"
+For about five days back, our CIR (Quants) madam, came to our class, as usual, bringing some typical questions with her. She then got on to the dais and asked a question. in her sweet tone, as "Find a ten digit number whose first two digits are divisible by 2, three digits by 3, four digits by 4 and so on..  and such that each digit must be used only once!"
 
 
 While everyone was in a hurry to solve the problem and become the *cool guy* of the class, I was sitting in the fourth bench making some conclusions on my paper ( please don't expect too much 😐).
