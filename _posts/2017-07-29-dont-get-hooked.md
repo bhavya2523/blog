@@ -11,7 +11,7 @@ Hello Everyone,
 
 I am back with one more interesting blog post, #6. So today, I want to discuss the topic called **PHISHING**. Sounds *fishy*, right? Surely, it is!
 
-<p style="text-align:center;"><strong><span style="color:#ff0000;">WARNING : </span>This blog post is written only for educating people about what is phishing, how it works and how to prevent phishing scams. So, please don’t use these techniques for malicious purposes.</strong></p>
+<p style="text-align:center;"><strong><span style="color:#ff0000;">WARNING : </span></strong>This blog post is written only for educating people about what is phishing, how it works and how to prevent phishing scams. So, please don’t use these techniques for malicious purposes.</p>
 
 Phishing is the act of sending an email to a user falsely claiming to be an established legitimate enterprise in an attempt to scam the user into surrendering private information that will be used for identity theft.
 

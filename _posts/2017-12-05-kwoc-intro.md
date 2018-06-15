@@ -26,7 +26,7 @@ Kharagpur Winter of Code is a 5-week long online programme for the students, who
   <img title="KOSS logo" src="/blog/public/img/kwoc-intro2.png" width="300" height="300">
 </p>
 
-![img](/blog/public/img/kwoc-intro3.png "Kharagpur Winter of Code 17")
+![img](/blog/public/img/kwoc0.png "Kharagpur Winter of Code 17")
 
 This programme is conducted by [KOSS](https://kossiitkgp.in/), which is a club like FOSS in our college. Just like the regular Season of Codes, here also you have to choose projects from the list and start working on according to the schedule. Project Mentors will be helping the students if any one is stuck somewhere.
 
