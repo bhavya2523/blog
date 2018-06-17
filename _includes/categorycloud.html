@@ -1,0 +1,15 @@
+{% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_categories = site_categories | split: ',' %}
+
+{% assign category_count = 0 %}
+{% for category in site_categories %}
+{% assign category_count = category_count | plus: site.categories[category].size %}
+{% endfor %}
+
+{% for category in categories %}
+{% assign rel_category_size = site.categories[category].size | times: 4.0 | divided_by: category_count | plus: 1 %}
+<span style="white-space: nowrap; font-size: {{ rel_category_size }}em; padding: 0.1em;">
+	<a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="category">#{{ category | slugize }}
+	</a>
+</span>
+{% endfor %}
