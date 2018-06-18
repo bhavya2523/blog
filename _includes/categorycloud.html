@@ -9,7 +9,7 @@
 {% for category in categories %}
 {% assign rel_category_size = site.categories[category].size | times: 4.0 | divided_by: category_count | plus: 1 %}
 <span style="white-space: nowrap; font-size: {{ rel_category_size }}em; padding: 0.1em;">
-	<a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="category">#{{ category | slugize }}
+	<a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="category">{{ category | slugize }}
 	</a>
 </span>
 {% endfor %}
