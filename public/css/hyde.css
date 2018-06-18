@@ -248,3 +248,16 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Sidebar links */
+
+.list-sidebar-nav-item {
+  line-height: 1.75;
+}
+a.list-sidebar-nav-item:hover,
+a.list-sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.list-sidebar-nav-item.active {
+  font-weight: bold;
+}
