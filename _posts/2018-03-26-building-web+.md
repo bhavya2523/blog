@@ -9,7 +9,7 @@ Hello Folks,
 
 So, as you know I am planning to take part in Google Summer of Code with Haiku. I chose the project, **Updating and Extending WebPositive** to work on.
 
-WebPositive is the native browser of Haiku which uses WebKit, an open source HTML rendering library.
+WebPositive is the native browser of Haiku which uses WebKit, an open source HTML rendering library which is also used by many other web browsers like Safari and Mozilla.
 
 <p align="center">
   <img title="WebPositive and WebKit" src="/blog/public/img/building-web+-1.jpg" alt="">
