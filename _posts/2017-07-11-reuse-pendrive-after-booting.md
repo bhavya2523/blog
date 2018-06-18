@@ -19,8 +19,8 @@ So in this tutorial, I am gonna help you to solve this problem. Follow these ste
 
 First of all, start administrator's command prompt:
 
-Type `cmd` in the search tab
-Press Ctrl+Shift+Enter to open the admin cmd
+- Type `cmd` in the search tab
+- Press Ctrl+Shift+Enter to open the admin cmd
 Open the utility called diskpart. I mean, enter `diskpart` command.
 
 `DISKPART> `prompt should appear.
