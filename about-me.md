@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Work
+title: About Me
 ---
