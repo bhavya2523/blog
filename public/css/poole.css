@@ -428,26 +428,3 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
-
-.funkyline {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-style: thin-italic;
-  font-size: 18px;
-}
-
-.PageNavigation {
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
-}
