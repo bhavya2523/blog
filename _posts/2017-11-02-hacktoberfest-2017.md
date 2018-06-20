@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: My OpenSource Step - Hacktoberfest 2017
+description: Experience of the Hacktoberfest 17.
 categories: Techie
 tags: FOSS GitHub OpenSource
 image: /public/img/hacktoberfest-2017/hack2017-0.png

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: My First Blog Post!
+description: Introduction to my blog.
 categories: Life
 tags: blog
 image:

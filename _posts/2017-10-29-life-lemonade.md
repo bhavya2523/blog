@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: When Life Gives You Lemons, Make Lemonade.
+description: An optimistic post describing the phrase, when life gives you lemons, make lemonade out of it.
 categories: Life
 tags: Optimism
 image: /public/img/life-lemonade/life-lemonade0.jpg

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Installing HaikuOS using VirtualBox
+description: Guide on how to install Haiku on VirtualBox.
 categories: Tutorial
 tags: Haiku VirtualBox GSoC17
 image: /public/img/installing-haikuos-on-vb/haiku-on-vb0.jpg

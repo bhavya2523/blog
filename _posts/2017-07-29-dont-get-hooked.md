@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Don’t Get Hooked!
+description: Blog post giving a brief description about phishing,
 categories: Techie Tutorial
 tags: Security phishing
 image: /public/img/dont-get-hooked/phishing0.jpg

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Major GIT Commands
+description: A complete listing of git commands.
 categories: Tutorial
 tags: git GitHub
 image:

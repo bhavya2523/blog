@@ -18,6 +18,7 @@ filout << "---
 layout: post
 comments: true
 title:
+description:
 categories:
 tags:
 image: #/public/img/

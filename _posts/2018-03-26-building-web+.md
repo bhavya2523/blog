@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Building WebPositive and WebKit in Haiku
+description: A descriptive blog post to show hot to install and WebPositive WebKit.
 categories: Tutorial
 tags: Haiku GSoC17 WebPositive WebKit
 image:

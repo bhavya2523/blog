@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: KWoC’17 | End Evaluation Report
+description: End report of KWoC.
 categories: KWoC
 tags: OpenSource GitHub
 image:

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: The Unique Number
+description:  How I cracked a puzzle using code.
 categories: Techie
 tags: algorithm FunToKnow
 image:

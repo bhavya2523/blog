@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Powerful 'One' Line Code!!
+description: Blog post giving you a brief description about fork bomb.
 categories: Techie
 tags: FunToKnow Security
 image: /public/img/powerful-one-line/fork0.png

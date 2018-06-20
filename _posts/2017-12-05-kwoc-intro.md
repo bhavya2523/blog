@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: An Opportunity To Learn
+description: Introduction to KWoC 17.
 categories: KWoC
 tags: FOSS OpenSource
 image:

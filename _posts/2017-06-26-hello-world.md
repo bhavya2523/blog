@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Hello, World - ???
+description: Story behind the time-honored tradition string, Hello, World!
 categories: Misc
 tags: HelloWorld FunToKnow
 image: /public/img/hello-world/hello-world.png

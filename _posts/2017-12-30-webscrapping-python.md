@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Web Scraping using Python and Beautiful Soup
+description: A small tutorial on webscrapping using python.
 categories: Tutorial
 tags: Python WebScrapping
 image:
