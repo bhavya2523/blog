@@ -4,6 +4,7 @@ timezone:          India/Kolakata
 markdown:         kramdown
 highlighter:      rogue
 
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -78,3 +79,6 @@ owner:
   flickr: #username
   codepen: #username
   telegram: #username
+
+
+github: [metadata]
