@@ -4,7 +4,7 @@ comments: true
 title: KWoC’17 | End Evaluation Report
 categories: KWoC
 tags: OpenSource GitHub
-image: 
+image:
 ---
 ## About KWoC
 
@@ -29,11 +29,11 @@ The [4 Pull Requests](https://github.com/athityakumar/tvseries/pulls/vchrombie) 
 *(You can refer [[3]](/blog/kwoc/2017/12/22/kwoc-week3/) [[4]](/blog/kwoc/2017/12/28/kwoc-week4/) [[5]](/blog/kwoc/2018/01/04/kwoc-week5/) for more clear info about my contributions to this project)*
 
 <p align="center">
-  <img title="First four are the series that I have added" src="/blog/public/img/kwoc-end1.png" alt="" style="border: 1px solid">
+  <img title="First four are the series that I have added" src="/blog/public/img/kwoc-end-report/kwoc-end1.png" alt="" style="border: 1px solid">
 </p>
 
 <p align="center">
-  <img title="A Look of the Narcos series." src="/blog/public/img/kwoc-end2.png" alt="" style="border: 1px solid">
+  <img title="A Look of the Narcos series." src="/blog/public/img/kwoc-end-report/kwoc-end2.png" alt="" style="border: 1px solid">
 </p>
 
 Another project which fascinated me was [YoutubeDataCollector](https://github.com/Parth-Vader/YoutubeDataCollector). It is a browser extension which keeps a track of all the Youtube videos you have watched recently. Two things encouraged me to take it up. First, the idea blew off my mind. Second, it was an extension, so it gave me a scope to learn some new things. I contacted it's mentor, [@Parth-Vader](https://github.com/Parth-Vader) and started working on it. I made some changes in the UI of the extension. Designed a new logo and updated its documentation. I submitted [2 Pull Requests](https://github.com/Parth-Vader/YoutubeDataCollector/pulls?q=is%3Apr+author%3Avchrombie) and I am happy that both of them got merged. :)
@@ -43,7 +43,7 @@ Another project was, [fast_playlist](https://github.com/udiboy1209/fast_playlist
 *(You can refer [[2]](/blog/kwoc/2017/12/16/kwoc-week2/) for more clear info about my contributions to the above two projects)*
 
 <p align="center">
-  <img title="Implememting the shuffle feature.." src="/blog/public/img/kwoc-end3.jpg" alt="" style="border: 1px solid">
+  <img title="Implememting the shuffle feature.." src="/blog/public/img/kwoc-end-report/kwoc-end3.jpg" alt="" style="border: 1px solid">
 </p>
 
 Another project was [Code Sleep Python](https://github.com/prateekiiest/Code-Sleep-Python). The project is about adding some interesting python scripts. I added my floating text program to this project. I also fixed some typos in the documentation. I made the changes through [2 Pull Requests](https://github.com/prateekiiest/Code-Sleep-Python/pulls?q=is%3Apr+author%3Avchrombie) which got merged later.
@@ -55,16 +55,16 @@ Apart from these, I contributed to [B.E.N.J.I.](https://github.com/the-ethan-hu
 *(You can refer [[1]](/blog/kwoc/2017/12/07/kwoc-week1) for more clear info about my contributions to the above projects)*
 
 <p align="center">
-  <img title="Quotes that I have added.." src="/blog/public/img/kwoc-end4.png" alt="" style="border: 1px solid">
+  <img title="Quotes that I have added.." src="/blog/public/img/kwoc-end-report/kwoc-end4.png" alt="" style="border: 1px solid">
 </p>
 <p align="center">
-  <img title="Badges I designed.." src="/blog/public/img/kwoc-end5.png" alt="" style="border: 1px solid">
+  <img title="Badges I designed.." src="/blog/public/img/kwoc-end-report/kwoc-end5.png" alt="" style="border: 1px solid">
 </p>
 <p align="center">
-  <img title="documentation showing my contribution.." src="/blog/public/img/kwoc-end6.png" alt="" style="border: 1px solid">
+  <img title="documentation showing my contribution.." src="/blog/public/img/kwoc-end-report/kwoc-end6.png" alt="" style="border: 1px solid">
 </p>
 <p align="center">
-  <img title="floating text program I have added.." src="/blog/public/img/kwoc-end7.png" alt="" style="border: 1px solid">
+  <img title="floating text program I have added.." src="/blog/public/img/kwoc-end-report/kwoc-end7.png" alt="" style="border: 1px solid">
 </p>
 
 I am little confused with this project, [awesome-social-science](https://github.com/icyflame/awesome-social-science). Here, I started to add some syndromes to the project but it's mentor asked me for a lot of changes and I was trying my level best. But atlast, my [2 Pull Requests](https://github.com/icyflame/awesome-social-science/pulls?q=is%3Apr+author%3Avchrombie) got closed but the changes were merged and gave me zero contributions from that project. Anyway, I am happy that the changes I made are in the official repo now.
@@ -88,7 +88,7 @@ The best part of the programme is that you will get to learn new things as you s
 It gives me immense happiness whenever I see my name on the leaderboard of the [KWoC'17 stats](https://kwoc.kossiitkgp.in/stats)
 
 <p align="center">
-  <img title="Statistics of KWoC'17" src="/blog/public/img/kwoc-end8.png" alt="">
+  <img title="Statistics of KWoC'17" src="/blog/public/img/kwoc-end-report/kwoc-end8.png" alt="">
 </p>
 
 ## Verdict

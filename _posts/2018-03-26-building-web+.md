@@ -4,7 +4,7 @@ comments: true
 title: Building WebPositive and WebKit in Haiku
 categories: Tutorial
 tags: Haiku GSoC17 WebPositive WebKit
-image: 
+image:
 ---
 Hello Folks,
 
@@ -13,7 +13,7 @@ So, as you know I am planning to take part in Google Summer of Code with Haiku. 
 WebPositive is the native browser of Haiku which uses WebKit, an open source HTML rendering library which is also used by many other web browsers like Safari and Mozilla.
 
 <p align="center">
-  <img title="WebPositive and WebKit" src="/blog/public/img/building-web+-1.jpg" alt="">
+  <img title="WebPositive and WebKit" src="/blog/public/img/building-web+/building-web+-1.jpg" alt="">
 </p>
 
 Recently while I was making some changes in the virtualbox, my whole system crashed including Ubuntu, Haiku in VB and also the build environment of the project. I have to reinstall everything from the starting. I thought of writing a blog post on this for any emergency cases in the future.
@@ -81,8 +81,8 @@ On a successful build, executables and libraries are generated in the WebKitBuil
 
 #### Working Scenes while building
 
-![img](/blog/public/img/building-web+-2.png)
-![img](/blog/public/img/building-web+-3.png)
+![img](/blog/public/img/building-web+/building-web+-2.png)
+![img](/blog/public/img/building-web+/building-web+-3.png)
 
 That’s it for today’s post. I will be back with one more post on WebPositive (may be on the topic, “How did I fix my bugs?” )
 

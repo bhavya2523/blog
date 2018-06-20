@@ -6,7 +6,6 @@ categories: Life
 tags: blog
 image:
 ---
-
 Right - I'll start by saying that I'm very unfamiliar with the concept of blogging. What am I doing? I'm well out of my comfort zone. Awkward feelings aside, I thought that this might be quite a nice way for me to introduce myself to you all a little less formally!
 
 Myself Venu. I'm a 19-year-old boy as of a month ago (...the age part, not the boy part). I'm on the final leg of my first year of graduate engineering school at the Amrita University, Kerala. I completed my +2 and Secondary, in my native i.e Hyderabad, a year back which feels like a lifetime ago now. After that, I joined in Amrita in ECE which later I could somehow be managed into CSE.

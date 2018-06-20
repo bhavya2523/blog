@@ -4,14 +4,14 @@ comments: true
 title: Re-Use your pen-drive after using it as a Bootable device.
 categories: Tutorial
 tags: USB booting
-image: /public/img/pendrive-error.jpg
+image: /public/img/reuse-pendrive-after-booting/pendrive-error.jpg
 ---
 I recently made my pen-drive bootable with Ubuntu 16.04. But I need to unboot my pen-drive now. Even though I formatted my pen-drive thrice, the size of the pen-drive still shows 2.25 MB. Whereas, this is a 32GB pen-drive.
 
 It looks like the picture below, somewhat...
 
 <p align="center">
-  <img title="Pendrive before formatting, after booting" src="/blog/public/img/screenshot-21.png" alt="" style="border: 1px solid">
+  <img title="Pendrive before formatting, after booting" src="/blog/public/img/reuse-pendrive-after-booting/screenshot-21.png" alt="" style="border: 1px solid">
 </p>
 
 So in this tutorial, I am gonna help you to solve this problem. Follow these steps
@@ -47,12 +47,12 @@ USB flash drives use FAT32 filesystem by default. You could use NTFS instead too
 
 Here is a screenshot for your reference..
 
-![img](/blog/public/img/screenshot-23.png "Command Prompt Screenshot")
+![img](/blog/public/img/reuse-pendrive-after-booting/screenshot-23.png "Command Prompt Screenshot")
 
 After following the series of these steps, you will find the problem fixed and the USB drive looks like this...
 
 <p align="center">
-  <img title="Pendrive after formatting" src="/blog/public/img/screenshot-22.png" alt="" style="border: 1px solid">
+  <img title="Pendrive after formatting" src="/blog/public/img/reuse-pendrive-after-booting/screenshot-22.png" alt="" style="border: 1px solid">
 </p>
 
 That's it!

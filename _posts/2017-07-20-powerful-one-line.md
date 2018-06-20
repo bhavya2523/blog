@@ -4,7 +4,7 @@ comments: true
 title: Powerful 'One' Line Code!!
 categories: Techie
 tags: FunToKnow Security
-image: /public/img/fork0.png
+image: /public/img/powerful-one-line/fork0.png
 ---
 Hello People,
 
@@ -21,7 +21,7 @@ I am just kidding.( not about the code part but about the revenge )
 A **fork bomb**, popularly known as **rabbit virus** or **wabbit** is a denial-of-service attack wherein a process continually replicates itself to deplete available system resources, slowing down or crashing the system due to resource starvation.
 
 <p align="center">
-  <img title="fork bomb structure" src="/blog/public/img/fork1.png" alt="" style="border: 1px solid">
+  <img title="fork bomb structure" src="/blog/public/img/powerful-one-line/fork1.png" alt="" style="border: 1px solid">
 </p>
 
 The code actually looks like this
@@ -31,7 +31,7 @@ The code actually looks like this
 So now, I am gonna explain how this code actually works leading to the crashing of the system.
 
 <p align="center">
-  <img title="" src="/blog/public/img/fork2.jpg" alt="" style="border: 1px solid">
+  <img title="" src="/blog/public/img/powerful-one-line/fork2.jpg" alt="" style="border: 1px solid">
 </p>
 
 A fork bomb works by creating a large number of processes very quickly in order to saturate the available space in the list of processes kept by the computer's operating system. If the process table becomes saturated, no new programs may start until another process terminates. Even if that happens, it is not likely that a useful program may be started since the instances of the bomb program will each attempt to take any newly-available slot themselves.
@@ -41,7 +41,7 @@ Not only do fork bombs use space in the process table: each child process uses f
 In computing, **a fork** is an operation whereby a process creates a copy of itself.
 
 <p align="center">
-  <img title="" src="/blog/public/img/fork3.png" alt="">
+  <img title="" src="/blog/public/img/powerful-one-line/fork3.png" alt="">
 </p>
 
 Once a successful fork bomb is active in a system, one may have to reboot to resume normal operation. Stopping a fork bomb requires destroying all running instances of it.
@@ -49,7 +49,7 @@ Once a successful fork bomb is active in a system, one may have to reboot to res
 It creates so many processes that the system is not able to create any more. Seems interesting, right? It even has the power to crash any Operating System. The renowned virus-free **Linux** is also a victim to this one line code.
 
 <p align="center">
-  <img title="" src="/blog/public/img/fork4.png" alt="" style="border: 1px solid">
+  <img title="" src="/blog/public/img/powerful-one-line/fork4.png" alt="" style="border: 1px solid">
 </p>
 
 I will provide you with some Examples :

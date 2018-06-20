@@ -59,7 +59,7 @@ return 1;
 Finally after compiling and running the 60 lines of code, gave me this
 
 <p align="center">
-  <img title="Screenshot of my terminal" src="/blog/public/img/unique-no.png" alt="" style="border: 1px solid">
+  <img title="Screenshot of my terminal" src="/blog/public/img/unique-number/unique-no.png" alt="" style="border: 1px solid">
 </p>
 
 In the above picture, 2492 says the count of numbers that passed step 1 and 816 ( my lucky number as always ) says the position of **The Unique Number** among those numbers.

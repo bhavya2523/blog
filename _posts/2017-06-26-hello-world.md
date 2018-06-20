@@ -4,7 +4,7 @@ comments: true
 title: Hello, World - ???
 categories: Misc
 tags: HelloWorld FunToKnow
-image: /public/img/hello-world.png
+image: /public/img/hello-world/hello-world.png
 ---
 If you ever stumbled on any programming language tutorial regardless of your background, you certainly have already seen the “Hello, World” written somewhere in the tutorials. As a function, the computer program simply tells the computer to display the words “Hello, World”.
 

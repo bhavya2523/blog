@@ -4,7 +4,7 @@ comments: true
 title: Don’t Get Hooked!
 categories: Techie Tutorial
 tags: Security phishing
-image: /public/img/phishing0.jpg
+image: /public/img/dont-get-hooked/phishing0.jpg
 ---
 Hello Everyone,
 
@@ -16,22 +16,22 @@ Phishing is the act of sending an email to a user falsely claiming to be an esta
 
 The phishing email will typically direct the user to visit a website where they are asked to update personal information, such as a password, credit card, social security, or bank account numbers, that the legitimate organization already has. The website, however, is bogus and will capture and steal any information the user enters on the page, something like *website spoofing*.
 
-![img](/blog/public/img/phishing1.png)
+![img](/blog/public/img/dont-get-hooked/phishing1.png)
 
 Okay, I will make it more clear by giving you an example. For suppose we take two friends, **Vinay** and **Venu**. *Venu* sends an email asking *Vinay* that to login into a link (which he provided in the mail itself), if he wants more likes or comments for his facebook post.
 
 <p align="center">
-  <img title="" src="/blog/public/img/phishing2.jpg" alt="" style="border: 1px solid">
+  <img title="" src="/blog/public/img/dont-get-hooked/phishing2.jpg" alt="" style="border: 1px solid">
 </p>
 
 *Vinay*, unaware of this phishing stuff, goes into the link and tries to login into the phishing site which looks like this..
 
-![img](/blog/public/img/phishing3.jpg)
+![img](/blog/public/img/dont-get-hooked/phishing3.jpg)
 
 Poor guy, *Vinay*, got trapped into the trick played by *Venu*. When *Vinay* logs in, the username and the password goes to *Venu* and the rest is history. Now the trick played by *Venu* is that he made a phishing site resembling **facebook**, ( <span style="text-decoration:underline;"><em>direct hit:</em></span> observe the URL, it is <em>"www.facebook.com.infoknown.com"</em> instead of <em>"www.facebook.com" </em>) and lured *Vinay* using 'likes'. Tears roll out for *Vinay*!
 
 <p align="center">
-  <img title="" src="/blog/public/img/phishing4.jpg" alt="" style="border: 1px solid">
+  <img title="" src="/blog/public/img/dont-get-hooked/phishing4.jpg" alt="" style="border: 1px solid">
 </p>
 
 I just gave the example of a social networking site, but believe me, *programmers* like *Venu* :P can do it for the financial or other accounts also which may screw you up.
@@ -51,7 +51,7 @@ It is very easy to create a phishing page. So I will explain how it is actually 
 
 **Process.php**
 
-```php
+```
 <?php
 if(isset($_POST['email']) && isset($_POST['pass']))
 {
@@ -87,7 +87,7 @@ Once you setup domain and hosting, you can upload the files using FTP software. 
 Now that the page is ready. The next step is to create a mail such that the fish (victim) should proceed to the phishing site. The weapon is the phishing email. Tell me who doesn't respond to a mail like this...
 
 <p align="center">
-  <img title="" src="/blog/public/img/phishing5.png" alt="" style="border: 1px solid">
+  <img title="" src="/blog/public/img/dont-get-hooked/phishing5.png" alt="" style="border: 1px solid">
 </p>
 
 Nobody wants to fall prey to a phishing scam. There’s a good reason that such scams will continue, though: They are successful enough for cybercriminals to make massive profits. Phishing scams have been around practically since the inception of the Internet, and they will not go away any time soon. Fortunately, there are ways to avoid becoming a victim yourself.
