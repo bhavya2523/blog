@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   {% if page.image %}
-  <meta content="{{ site.baseurl }}/public/img/{{ page.image }}" property="og:image">
+  <meta content="{{ site.baseurl }}{{ page.image }}" property="og:image">
   {% else %}
   <meta content="{{ site.baseurl }}/public/img/load.png" property="og:image">
   {% endif %}
