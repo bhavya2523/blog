@@ -4,9 +4,8 @@ comments: true
 title: Don’t Get Hooked!
 categories: Techie Tutorial
 tags: Security phishing
+image: /public/img/phishing0.jpg
 ---
-![img](/blog/public/img/phishing0.jpg)
-
 Hello Everyone,
 
 I am back with one more interesting blog post, #6. So today, I want to discuss the topic called **PHISHING**. Sounds *fishy*, right? Surely, it is!

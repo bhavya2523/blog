@@ -4,9 +4,8 @@ comments: true
 title: My OpenSource Step - Hacktoberfest 2017
 categories: Techie
 tags: FOSS GitHub OpenSource
+image: /public/img/hack2017-0.png
 ---
-![img](/blog/public/img/hack2017-0.png)
-
 Hello Folks,
 
 I am back with one more blog post in which I will let you know what I did in this October in which I took a step, Making my first PR 🙌🎉

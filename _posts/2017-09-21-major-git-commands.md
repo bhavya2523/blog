@@ -4,6 +4,7 @@ comments: true
 title: Major GIT Commands
 categories: Tutorial
 tags: git GitHub
+image:
 ---
 Hello People,
 

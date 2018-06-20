@@ -17,6 +17,7 @@ comments: true
 title:
 categories:
 tags:
+image: 
 ---\n\n"
 
 filout.close()

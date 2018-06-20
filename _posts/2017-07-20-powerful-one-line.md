@@ -4,11 +4,8 @@ comments: true
 title: Powerful 'One' Line Code!!
 categories: Techie
 tags: FunToKnow Security
+image: /public/img/fork0.png
 ---
-<p align="center">
-  <img title="" src="/blog/public/img/fork0.png" alt="">
-</p>
-
 Hello People,
 
 Wondering WTH I kept this post title and a featured image with some weird emojis?

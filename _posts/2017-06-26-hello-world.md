@@ -4,10 +4,8 @@ comments: true
 title: Hello, World - ???
 categories: Misc
 tags: HelloWorld FunToKnow
+image: /public/img/hello-world.png
 ---
-
-![img](/blog/public/img/hello-world.png)
-
 If you ever stumbled on any programming language tutorial regardless of your background, you certainly have already seen the “Hello, World” written somewhere in the tutorials. As a function, the computer program simply tells the computer to display the words “Hello, World”.
 
 All programmers that have come before you have, at some point, felt the same rush of adrenaline after realizing they successfully communicated through the computer with a huge smile on their face :D. Over the past several decades, it’s grown to become a time-honored tradition. Have you ever thought of how the two most famous words in the history of programming first began:

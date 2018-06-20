@@ -4,6 +4,7 @@ comments: true
 title: KWoC’17 | End Evaluation Report
 categories: KWoC
 tags: OpenSource GitHub
+image: 
 ---
 ## About KWoC
 

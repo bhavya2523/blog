@@ -4,6 +4,7 @@ comments: true
 title: The Unique Number
 categories: Techie
 tags: algorithm FunToKnow
+image:
 ---
 For about five days back, our CIR (Quants) madam, came to our class, as usual, bringing some typical questions with her. She then got on to the dais and asked a question. in her sweet tone, as "Find a ten digit number whose first two digits are divisible by 2, three digits by 3, four digits by 4 and so on..  and such that each digit must be used only once!"
 

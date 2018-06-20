@@ -4,6 +4,7 @@ comments: true
 title: An Opportunity To Learn
 categories: KWoC
 tags: FOSS OpenSource
+image: 
 ---
 Hello Guys,
 

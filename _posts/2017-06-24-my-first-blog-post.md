@@ -4,6 +4,7 @@ comments: true
 title: My First Blog Post!
 categories: Life
 tags: blog
+image:
 ---
 
 Right - I'll start by saying that I'm very unfamiliar with the concept of blogging. What am I doing? I'm well out of my comfort zone. Awkward feelings aside, I thought that this might be quite a nice way for me to introduce myself to you all a little less formally!

@@ -4,6 +4,7 @@ comments: true
 title: Building WebPositive and WebKit in Haiku
 categories: Tutorial
 tags: Haiku GSoC17 WebPositive WebKit
+image: 
 ---
 Hello Folks,
 

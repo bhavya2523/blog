@@ -51,6 +51,12 @@ layout: default
 
   <br>
 
+  {% if page.image %}
+  <p align="center">
+    <img title="{{ page.title }}" src="{{ site.baseurl }}{{ page.image }}" alt="">
+  </p>
+  {% endif %}
+
   {% assign description = content | truncatewords: 120 %}
 
   {{ content }}

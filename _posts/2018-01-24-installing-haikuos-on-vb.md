@@ -4,9 +4,8 @@ comments: true
 title: Installing HaikuOS using VirtualBox
 categories: Tutorial
 tags: Haiku VirtualBox GSoC17
+image: /public/img/haiku-on-vb0.jpg
 ---
-![img0](/blog/public/img/haiku-on-vb0.jpg)
-
 Hello People,
 
 So, basically I started contributing to Open Source but this time, I selected HaikuOS as the organization and started doing my work. I started with two bugs in [HaikuArchives/Weather App](https://github.com/HaikuArchives/Weather). Before doing some work, I need to build it right! So, I installed Haiku in a virtual machine (VirtualBox). In this blog post, I will showing how to do that (step-wise) and discuss the errors I have faced while installing and how I fixed them.

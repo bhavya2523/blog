@@ -4,9 +4,8 @@ comments: true
 title: When Life Gives You Lemons, Make Lemonade.
 categories: Life
 tags: Optimism
+image: /public/img/life-lemonade0.jpg
 ---
-![img](/blog/public/img/life-lemonade0.jpg)
-
 “When life gives you lemons, make lemonade.” This common phrase is meant to give an optimistic spin to everything. Lemons are quite sour, but can be made sweet and enjoyable with a dash of sugar and some water.
 
 If life was fair, I’d have everything. This is almost the story of every person. Now imagine if life was actually a bed of roses, every other person would be ruling, no one would know the meaning of fight, and winning without fighting is tasteless. Undoubtedly, *Life is not a bed of roses* but that does not mean we can’t make it a bed of roses. Similar is the meaning of this topic ‘If Life gives you lemons, make lemonade’. This topic depicts a hopeful and optimistic attitude towards life.When dealing with difficulties, every man thinks he is the most unlucky but little he know that every individual has to face problem in some course of life. Every problem contains a solution too, right? And in this case, the only thing that rejuvenates man, makes him courageous and empowers him to face the challenge valiantly is hope.

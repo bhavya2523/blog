@@ -14,6 +14,10 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
+    {% if post.image %}
+    <img src="{{ site.baseurl }}{{ post.image }}" alt=""></img>
+    {% endif %}
+
     {{ post.content | truncatewords: 50 }} <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
   </div>
   <hr size=20>
