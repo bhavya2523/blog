@@ -2,15 +2,52 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252">
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  {% if page.image %}
-  <meta content="{{ site.baseurl }}{{ page.image }}" property="og:image">
+
+  <title>
+    {% if page.title == "Home" %}
+    » {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+    » {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="Venu, Venu Vardhan Reddy Tekula, VenuVardhan, venuvardhanreddy, Venu Vardhan Reddy, WebDevelopment, Open Source, PHP, Python, JavaScript, jQuery, Web Developer, Amrita University, Github, Twitter, Wordpress, blog, Developer, Amritapuri, Hyderabad, CodeChef, HackerRank">
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Venu Vardhan Reddy Tekula">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="https://vchrombie.github.io/squaredp.jpeg">
+
+  <!-- Twitter cards metadatas -->
+  <meta name="twitter:card" content="https://vchrombie.github.io/squaredp.jpeg">
+  <meta name="twitter:site" content="@vchrombie">
+  <meta name="twitter:creator" content="@vchrombie">
+  <meta name="twitter:image:src" content="https://vchrombie.github.io/squaredp.jpeg">
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
-  <meta content="{{ site.baseurl }}{{ site.logo }}" property="og:image">
+    <meta name="twitter:title" content="{{ site.title }}">
   {% endif %}
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.header-img %}
+    <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+  {% endif %}
+
+  <!-- Open Graph data -->
 
   <meta content="{{ site.title }}" property="og:site_name">
 
@@ -26,14 +63,20 @@
   <meta content="website" property="og:type">
   {% endif %}
 
-  {% if page.content %}
-  <meta content="{{ page.content | number_of_words }} words about {{ page.categories | sample }}" property="og:description">
-  {% else %}
-  <meta content="{{ site.description }}" property="og:description">
-  {% endif %}
-
   {% if page.url %}
   <meta content="{{ site.baseurl }}/{{ page.url }}" property="og:url">
+  {% endif %}
+
+  {% if page.image %}
+  <meta content="{{ site.baseurl }}{{ page.image }}" property="og:image">
+  {% else %}
+  <meta content="{{ site.baseurl }}{{ site.logo }}" property="og:image">
+  {% endif %}
+
+  {% if page.content %}
+  <meta content="{{  page.content | truncatewords: 50 }}" property="og:description">
+  {% else %}
+  <meta content="{{ site.description }}" property="og:description">
   {% endif %}
 
   {% if page.date %}
@@ -53,37 +96,6 @@
   {% endfor %}
   {% endif %}
 
-
-  <!-- Twitter cards metadatas -->
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@vdaubry">
-  <meta name="twitter:creator" content="@vdaubry">
-  {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-  {% endif %}
-  {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-  {% endif %}
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-  {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-  {% endif %}
-  {% if page.header-img %}
-    <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
-  {% endif %}
-
-
-  <title>
-    {% if page.title == "Home" %}
-    » {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-    » {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
