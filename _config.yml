@@ -30,7 +30,7 @@ author:
   name:           'Venu'
   url:            https://vchrombie.github.io/
 
-paginate:         10
+paginate:         8
 
 plugins:          [jekyll-paginate]
 
