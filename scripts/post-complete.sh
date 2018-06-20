@@ -1,4 +1,7 @@
-python tag_generator.py
-echo "Server Test. 'ctrl+c' to EXIT."
+echo "Empty image directories are deleted"
 cd ..
-jekyll server start
+#cd public/img/
+find . -type d -depth -empty -exec rmdir "{}" \;
+
+echo "BUILDING Blog"
+bundle exec jekyll serve
