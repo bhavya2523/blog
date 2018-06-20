@@ -23,7 +23,7 @@ description:      "vchr0mbi3's Diary is a personal and professional blog that Ve
                   That is what helped him turn his blog into a successful one – his passion for helping others, apart from the excellent knowledge on the subject of his writing, of course.
                   His motto is- “Make it happen and he lives (and writes) by that slogan."
 funkyline:        “I would love to change the world, but they won’t give me the source code. :P"
-logo:              /public/img/squaredp.jpeg #logo.png
+logo:              /public/img/dp.jpg #logo.png
 
 url:              "http://vchrombie.github.io"
 baseurl:          "/blog"
