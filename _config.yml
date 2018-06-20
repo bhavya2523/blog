@@ -19,6 +19,7 @@ title:            vchr0mbi3's Diary
 tagline:          'Make it happen.'
 description:      'Optimist | Foodie | Techie'
 funkyline:        “I would love to change the world, but they won’t give me the source code. :P"
+logo:              /public/img/logo.png
 
 url:              "http://vchrombie.github.io"
 baseurl:          "/blog"

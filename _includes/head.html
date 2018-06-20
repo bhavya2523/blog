@@ -9,7 +9,7 @@
   {% if page.image %}
   <meta content="{{ site.baseurl }}{{ page.image }}" property="og:image">
   {% else %}
-  <meta content="{{ site.baseurl }}/public/img/load.png" property="og:image">
+  <meta content="{{ site.baseurl }}{{ site.logo }}" property="og:image">
   {% endif %}
 
   <meta content="{{ site.title }}" property="og:site_name">
