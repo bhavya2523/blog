@@ -5,14 +5,14 @@ name = gets.chomp
 
 require 'date'
 
-POSTS_DIR = "../_posts"
+POSTS_DIR = "_posts"
 
 file_name = "#{Date.today.iso8601}-#{name}.md"
 file_path = "#{POSTS_DIR}/#{file_name}"
 
 puts "CREATED #{file_name}"
 
-filout = File.open file_path, "w"
+filout = File.open(file_path, "w")
 
 filout << "---
 layout: post
@@ -21,19 +21,19 @@ title:
 description:
 categories:
 tags:
-image: #/public/img/
+image: #/public/img/#{name}/
 ---\n\n"
 
 filout.close()
 
 puts "TEMPLATE inserted in #{file_path}"
 
-image_dir = "../public/img/#{name}"
+image_dir = "public/img/#{name}"
 if Dir.exists? image_dir
     unless File.exists? "#{image_dir}/"
     end
 else
-    Dir.mkdir("../public/img/#{name}")
+    Dir.mkdir("public/img/#{name}")
 end
 
 puts "IMAGE DIRECTORY created in /public/img/#{name}"
