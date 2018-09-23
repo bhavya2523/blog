@@ -4,7 +4,7 @@ comments: true
 title: easy peasy, lemon squeezy
 description: A blog post to show few of the automation stuff I made to make my life easy.
 categories: Techie
-tags: ComputerHacks MakeLifeEasy blog
+tags: MakeLifeEasy blog hacks
 image: #/public/img/easy-peasy-lemon-squeezy/
 ---
 Hi all!

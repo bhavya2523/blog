@@ -4,7 +4,7 @@ comments: true
 title: Re-Use your pen-drive after using it as a Bootable device.
 description: Tutorial showing how you can re use your pendrive after using it as a bootable device.
 categories: Tutorial
-tags: USB booting
+tags: USB booting hacks
 image: /public/img/reuse-pendrive-after-booting/pendrive-error.jpg
 ---
 I recently made my pen-drive bootable with Ubuntu 16.04. But I need to unboot my pen-drive now. Even though I formatted my pen-drive thrice, the size of the pen-drive still shows 2.25 MB. Whereas, this is a 32GB pen-drive.
