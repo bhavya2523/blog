@@ -1,4 +1,4 @@
-**Hi, I made this blog using Jekyll and crafting the Hyde theme.**
+**Hi, I made this blog using Jekyll and crafted the Hyde theme.**
 
 Curious to know how I made this blog?
 
