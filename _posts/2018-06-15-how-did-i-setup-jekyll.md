@@ -88,6 +88,6 @@ So, I finally implemented all the required features.
 
 The final thing left was to import the existing Wordpress blogs to jekyll as I don't want to lose them. So, I copied the code format of the blog and copied and translated it to markdown. (big process but thansk to atom, I could do that really fast using the editor)
 
-And that's it, everything was done and my blog is live now at https://vchrombie.github.io/blog/. So do visit it and if possible pop a mail/ping me to me suggesting some new features and if any bugs/typos if you encounter with.
+And that's it, everything was done and my blog is live now at [https://vchrombie.github.io/blog/](https://vchrombie.github.io/blog/). So do visit it and if possible pop a mail/ping me to me suggesting some new features and if any bugs/typos if you encounter with.
 
 Cheers.

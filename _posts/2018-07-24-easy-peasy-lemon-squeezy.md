@@ -4,7 +4,7 @@ comments: true
 title: easy peasy, lemon squeezy
 description: A blog post to show few of the automation stuff I made to make my life easy.
 categories: Techie
-tags: ComputerHacks MakeLifeEasy
+tags: ComputerHacks MakeLifeEasy blog
 image: #/public/img/easy-peasy-lemon-squeezy/
 ---
 Hi all!
@@ -125,4 +125,4 @@ The first line executes the ruby script which I have written just before and the
 
 These automations reduce my time for posting a blog post from 5 to 1 minutes. Though the time difference is small and negligable, I am interested in automating the stuff according to my convinience and every minute is valuable.
 
-You can find the code of the scripts I have written for the blog posts here https://github.com/vchrombie/blog/tree/gh-pages/scripts
+You can find the code of the scripts I have written for the blog posts here [https://github.com/vchrombie/blog/tree/gh-pages/scripts](https://github.com/vchrombie/blog/tree/gh-pages/scripts).

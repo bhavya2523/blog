@@ -4,7 +4,7 @@ comments: true
 title: Why should we be proud of being Indians?
 description: A blog on the topic "Why should we be proud of being Indians?"
 categories: Life
-tags: blog patriotic
+tags: patriotic
 image: /public/img/why-should-we-be-proud-of-being-indians/proud-to-be-an-indian.jpg
 ---
 Hi everyone!
